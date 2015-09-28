@@ -34,4 +34,7 @@ and brings over all uncommitted changes to the new feature branch.
 
 --continue
     Continue the operation after resolving conflicts.
+
+--undo
+    Removes the recently created branch.
 ```
