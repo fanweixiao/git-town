@@ -27,6 +27,8 @@ function preconditions {
   if [ "$target_branch" != "$INITIAL_BRANCH_NAME" ]; then
     ensure_has_branch "$target_branch"
   fi
+
+  export RUN_IN_GIT_ROOT=true
 }
 
 
